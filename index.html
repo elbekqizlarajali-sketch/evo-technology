@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVO TECHNOLOGY | Bilimlar olami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a class="logo" href="#home">EVO <span>TECHNOLOGY</span></a>
+    <nav>
+        <a href="#home">Bosh sahifa</a>
+        <a href="#programming">Dasturlash</a>
+        <a href="#innovation">Innovatsiya</a>
+        <a href="#computer">Kompyuter</a>
+        <a href="#about">Biz haqimizda</a>
+    </nav>
+</header>
+
+<!-- BOSH SAHIFA -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="eyebrow">KELAJAK BUGUNDAN BOSHLANADI</p>
+        <h1>Texnologiyalar <span>olamiga</span> xush kelibsiz!</h1>
+        <p>
+            Dasturlashni o‘rganing, yangi ixtirolarni kashf eting
+            va zamonaviy kompyuter texnologiyalari bilan tanishing.
+        </p>
+        <a href="#programming" class="btn">Bilim olishni boshlash →</a>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+             alt="Kompyuter texnologiyalari">
+    </div>
+</section>
+
+<!-- SOAT -->
+<div class="clock">
+    <h3>Hozirgi vaqt</h3>
+    <div id="clock">00:00:00</div>
+    <p id="date"></p>
+</div>
+
+<!-- QIDIRUV -->
+<section class="search-section">
+    <h2>Bilimlar markazi</h2>
+    <p>O‘zingizga kerakli mavzuni qidiring</p>
+    <input id="search" type="text"
+           placeholder="Masalan: HTML, kompyuter, robot...">
+    <p id="searchResult"></p>
+</section>
+
+<!-- DASTURLASH -->
+<section class="section" id="programming">
+    <h2>⌨️ Dasturlash bilimlari</h2>
+    <p class="intro">
+        Dasturlash — kompyuterga muayyan vazifalarni bajarish
+        uchun buyruqlar yozish jarayonidir.
+    </p>
+
+    <div class="cards">
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479"
+                 alt="HTML dasturlash">
+            <div class="card-content">
+                <h3>HTML</h3>
+                <p>
+                    HTML — veb-sahifaning tuzilishini yaratish
+                    uchun ishlatiladigan belgilash tilidir.
+                    Sarlavha, matn, rasm va havolalar HTML
+                    yordamida joylashtiriladi.
+                </p>
+                <pre><code>&lt;h1&gt;Salom dunyo!&lt;/h1&gt;
+&lt;p&gt;Mening saytim&lt;/p&gt;</code></pre>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
+                 alt="CSS dasturlash">
+            <div class="card-content">
+                <h3>CSS</h3>
+                <p>
+                    CSS saytning tashqi ko‘rinishini bezaydi.
+                    Ranglar, shriftlar, joylashuv va
+                    animatsiyalar CSS orqali boshqariladi.
+                </p>
+                <pre><code>h1 {
+  color: blue;
+  font-size: 30px;
+}</code></pre>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+                 alt="JavaScript dasturlash">
+            <div class="card-content">
+                <h3>JavaScript</h3>
+                <p>
+                    JavaScript veb-saytga interaktivlik
+                    qo‘shadi. Tugmalar, hisoblagichlar,
+                    o‘yinlar va dinamik funksiyalar yaratishda
+                    foydalaniladi.
+                </p>
+                <pre><code>let son = 10;
+console.log(son);</code></pre>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935"
+                 alt="Python dasturlash">
+            <div class="card-content">
+                <h3>Python</h3>
+                <p>
+                    Python — sodda sintaksisga ega
+                    dasturlash tili. U sun'iy intellekt,
+                    ma'lumotlar tahlili va avtomatlashtirishda
+                    qo‘llanadi.
+                </p>
+                <pre><code>print("Salom, dunyo!")</code></pre>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- INNOVATSIYA -->
+<section class="section alternate" id="innovation">
+    <h2>🚀 Innovatsiyalar olami</h2>
+    <p class="intro">
+        Innovatsiya — yangi g‘oya, usul yoki texnologiyani
+        yaratish va amaliyotga joriy etishdir.
+    </p>
+
+    <div class="cards">
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995"
+                 alt="Sun'iy intellekt">
+            <div class="card-content">
+                <h3>Sun'iy intellekt (AI)</h3>
+                <p>
+                    Sun'iy intellekt kompyuterlarga
+                    ma'lumotlarni tahlil qilish, matn bilan
+                    ishlash va ayrim vazifalarni bajarishga
+                    yordam beradigan texnologiyalar majmuasidir.
+                </p>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+                 alt="Robototexnika">
+            <div class="card-content">
+                <h3>Robototexnika</h3>
+                <p>
+                    Robototexnika robotlarni loyihalash,
+                    yaratish va boshqarishni o‘rganadi.
+                    Robotlar ishlab chiqarish, tibbiyot
+                    va tadqiqotlarda ishlatiladi.
+                </p>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+                 alt="Kosmik texnologiyalar">
+            <div class="card-content">
+                <h3>Kosmik texnologiyalar</h3>
+                <p>
+                    Sun'iy yo‘ldoshlar, kosmik apparatlar
+                    va teleskoplar orqali olamni o‘rganish,
+                    aloqa va navigatsiya xizmatlarini
+                    rivojlantirish mumkin.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- KOMPYUTER -->
+<section class="section" id="computer">
+    <h2>🖥 Kompyuter haqida bilimlar</h2>
+    <p class="intro">
+        Kompyuter — ma'lumotlarni qabul qilish, qayta ishlash,
+        saqlash va natijalarni chiqarish uchun mo‘ljallangan
+        elektron qurilma.
+    </p>
+
+    <div class="cards">
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1555617981-dac3880eac6e"
+                 alt="Protsessor">
+            <div class="card-content">
+                <h3>Protsessor (CPU)</h3>
+                <p>
+                    Protsessor kompyuter buyruqlarini bajaradi
+                    va hisob-kitoblarni amalga oshiradi.
+                    Uning ishlash tezligi va yadrolari
+                    kompyuter unumdorligiga ta'sir qiladi.
+                </p>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1562976540-1502c2145186"
+                 alt="Operativ xotira">
+            <div class="card-content">
+                <h3>Operativ xotira (RAM)</h3>
+                <p>
+                    RAM dasturlar ishlayotgan paytda kerak
+                    bo‘ladigan ma'lumotlarni vaqtincha saqlaydi.
+                    Kompyuter o‘chirilganda undagi ma'lumotlar
+                    saqlanib qolmaydi.
+                </p>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b"
+                 alt="SSD disk">
+            <div class="card-content">
+                <h3>SSD va HDD</h3>
+                <p>
+                    SSD va HDD ma'lumotlarni uzoq muddat
+                    saqlash qurilmalaridir. SSD odatda tezroq,
+                    HDD esa ko‘pincha katta hajmli saqlash
+                    uchun qulay bo‘ladi.
+                </p>
+            </div>
+        </article>
+
+        <article class="card searchable">
+            <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704"
+                 alt="Videokarta">
+            <div class="card-content">
+                <h3>Videokarta (GPU)</h3>
+                <p>
+                    GPU grafik tasvirlarni qayta ishlaydi.
+                    U o‘yinlar, video montaj va ilmiy
+                    hisoblashlarda muhim ahamiyatga ega.
+                </p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- BIZ HAQIMIZDA -->
+<section class="section about alternate" id="about">
+    <h2>🌐 Biz haqimizda</h2>
+
+    <div class="about-box">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+             alt="Jamoaviy texnologik ish">
+
+        <div>
+            <h3>EVO TECHNOLOGY nima?</h3>
+            <p>
+                EVO TECHNOLOGY — zamonaviy texnologiyalar,
+                dasturlash va kompyuter bilimlarini
+                o‘rganishga bag‘ishlangan ta'limiy veb-loyiha.
+            </p>
+
+            <h3>Bizning maqsadimiz</h3>
+            <p>
+                Yoshlarning texnologiyaga bo‘lgan qiziqishini
+                oshirish, ularga dasturlash asoslarini
+                tushuntirish va yangi bilimlarni oson
+                o‘zlashtirishga yordam berish.
+            </p>
+
+            <h3>Bizning vazifamiz</h3>
+            <p>
+                Foydali maqolalar, tushunarli misollar,
+                rasmlar va amaliy mashqlar orqali
+                bilimlarni sodda va qiziqarli yetkazish.
+            </p>
+
+            <h3>Kelajak rejalari</h3>
+            <p>
+                Saytga yangi darslar, video qo‘llanmalar,
+                interaktiv testlar va foydali IT yangiliklarini
+                qo‘shib borish.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- YANGILIKLAR -->
+<section class="section" id="news">
+    <h2>📰 Texnologiya yangiliklari</h2>
+    <div class="cards">
+        <article class="card searchable">
+            <h3>Sun'iy intellekt rivoji</h3>
+            <p>
+                AI ta'lim, tibbiyot, tarjima va ma'lumotlar
+                tahlili kabi ko‘plab sohalarda qo‘llanmoqda.
+            </p>
+        </article>
+        <article class="card searchable">
+            <h3>Robotlar va avtomatlashtirish</h3>
+            <p>
+                Robotlar takroriy vazifalarni bajarishda
+                insonlarga yordam bermoqda.
+            </p>
+        </article>
+        <article class="card searchable">
+            <h3>Yangi dasturlash bilimlari</h3>
+            <p>
+                Web dasturlashni o‘rganish orqali
+                o‘z veb-saytingizni yaratishingiz mumkin.
+            </p>
+        </article>
+    </div>
+    <p class="note">
+        Eslatma: bu bo‘limdagi matnlar o‘quv maqsadidagi
+        namunaviy ma'lumotlardir, jonli yangiliklar emas.
+    </p>
+</section>
+
+<!-- O'YIN -->
+<section class="section alternate" id="games">
+    <h2>🎮 Bilim va o‘yin</h2>
+    <div class="game-box">
+        <h3>Tezkor bosish</h3>
+        <p>10 soniyada qancha ochko yig‘a olasan?</p>
+        <h1 id="score">0</h1>
+        <button class="btn" id="startGame">Boshlash</button>
+        <button class="btn" id="clickGame" disabled>BOSISH!</button>
+        <p id="gameMessage">O‘yinni boshlash uchun tugmani bos.</p>
+    </div>
+</section>
+
+<!-- MUSIQA -->
+<section class="section" id="music">
+    <h2>🎵 Musiqa</h2>
+    <p>Kompyuteringizdan audio fayl tanlang.</p>
+    <input type="file" id="musicFile" accept="audio/*">
+    <audio id="audio" controls></audio>
+    <p id="musicName">Musiqa tanlanmagan</p>
+</section>
+
+<!-- ALOQA -->
+<section class="section alternate" id="contact">
+    <h2>📩 Biz bilan aloqa</h2>
+    <p>Taklif va fikrlaringizni yozib qoldiring.</p>
+    <form id="contactForm" class="contact-form">
+        <input type="text" id="userName"
+               placeholder="Ismingiz" required>
+        <textarea id="userMessage"
+                  placeholder="Xabaringiz" required></textarea>
+        <button class="btn" type="submit">Xabarni tayyorlash</button>
+    </form>
+    <p id="contactResult"></p>
+</section>
+
+<footer>
+    <h2>EVO TECHNOLOGY</h2>
+    <p>Bilim — kelajak kaliti!</p>
+    <p>© 2026 EVO TECHNOLOGY</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
